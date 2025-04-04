@@ -1,10 +1,10 @@
 {
-  "rpcUrl": "https://api.mainnet-beta.solana.com",
-  "dryRun": true,
+  "rpcUrl": "https://mainnet.helius-rpc.com/?api-key=9b655eeb-ea57-4d4a-ad49-8afb85d73dcd",
+  "dryRun": false,
   "keypairFilePath": "keypair.json",
   "computeUnitPriceMicroLamports": 100000,
   "setDlmmPoolStatus": {
-    "poolAddress": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
-    "enabled": true
+    "poolAddress": "23fpKyyg48KusSoQ8aDr2oQhMu7bJJoLsY2dmHxJapUQ",
+    "enabled": false
   }
 }

@@ -1,18 +1,18 @@
 {
-  "rpcUrl": "https://api.mainnet-beta.solana.com",
-  "dryRun": true,
+  "rpcUrl": "https://mainnet.helius-rpc.com/?api-key=9b655eeb-ea57-4d4a-ad49-8afb85d73dcd",
+  "dryRun": false,
   "keypairFilePath": "keypair.json",
   "computeUnitPriceMicroLamports": 100000,
-  "baseMint": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump",
+  "baseMint": "99kj6yQmbJo67hjVCySLoJ2ViYQ32xr4x4qa5gAT1QnQ",
   "quoteSymbol": "SOL",
   "dlmm": {
-    "binStep": 400,
-    "feeBps": 200,
-    "initialPrice": 0.0000017,
-    "activationType": "slot",
-    "activationPoint": null,
+    "binStep": 80,
+    "feeBps": 500,
+    "initialPrice": 0.0000002777,
+    "activationType": "timestamp",
+    "activationPoint": 1743642000,
     "priceRounding": "up",
     "hasAlphaVault": false,
-    "creatorPoolOnOffControl": false
+    "creatorPoolOnOffControl": true
   }
 }
